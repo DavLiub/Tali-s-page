@@ -13,7 +13,7 @@ const Header: React.FC = () => {
                 </div>
                 <LanguageSwitcher />
             </div>
-            <div className="w-full bg-gray-200 flex flex-wrap justify-between border-b border-gray-300">
+            <div className="w-full bg-white flex flex-wrap justify-between bg-gradient-to-br from-transparent via-transparent to-blue-50">
                 <div className="w-fit flex justify-start p-4">
                     <NavigateMenu />
                 </div>

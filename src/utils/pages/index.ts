@@ -20,15 +20,15 @@ export const pages:{[key:string]: Page} = {
         link: "/",
         component: Home
     },
-    cv: {
-        name: "My CV",
-        link: "/cv",
-        component: Cv
-    },
     about: {
         name: "About",
         link: "/about",
         component: About
+    },
+    cv: {
+        name: "My CV",
+        link: "/cv",
+        component: Cv
     },
     projects: {
         name: "Projects",
