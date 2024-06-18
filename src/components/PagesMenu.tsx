@@ -1,7 +1,6 @@
 import React from 'react';
 import {useNavigate} from 'react-router-dom';
 import {pages} from "../utils/pages";
-import HomeButton from "./HomeButton";
 
 const PagesMenu = () => {
     const navigate = useNavigate();
