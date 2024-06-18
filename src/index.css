@@ -1,0 +1,11 @@
+/* Tailwind base styles */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+@layer utilities {
+    .fade-in {
+        @apply animate-fadeIn;
+    }
+}
